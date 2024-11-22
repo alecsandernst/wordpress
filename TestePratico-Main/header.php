@@ -39,31 +39,35 @@
 
     <section class="menu-area">
       <div class="container">
-       <div class="row">
-        <section class="logo col-3">Logo</section>
-        <nav class="menu col-9 text-right"><?php wp_nav_menu( array( 'theme_location'
-         => 'my_main_menu')); ?></nav>
-       </div> 
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+              <a class="navbar-brand" href="<?php echo home_url(); ?>">
+                <img src="<?php echo get_template_directory_uri(); ?>/SRC/assets/img/logo-branco.png"
+                  alt="Logo ICC Biolabs" class="img-fluid" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class=" collapse navbar-collapse ms-auto" id="navbarNav">
+                <?php
+                wp_nav_menu(  args: array(
+                  'theme_location' => 'my_main_menu',
+                  'container' => false,
+                  'menu_class' => 'navbar-nav ms-auto',
+                  'fallback_cb' => '__return_false',
+                  'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                  'depth' => 2,
+                  'walker' => new WP_Bootstrap_Navwalker(),
+                ));
+                ?>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <div class="container">
-        <a class="navbar-brand" href="header.php">
-          <img src="SRC/assets/img/logo-branco.png" alt="Logo ICC Biolabs" class="img-fluid" />
-        </a> -->
-      </div>
+    </div>
     </nav>
   </header>

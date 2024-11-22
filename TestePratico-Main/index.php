@@ -2,7 +2,7 @@
 
 <div class="owl-banner-principal">
 <div class="owl-carousel owl-theme owl-topo">
-    <div class="item" style="background-image: url('SRC/assets/img/backgroundtopo.png');">
+    <div class="item" style="background-image: url(http://localhost/wpatratis/wp-content/uploads/2024/11/backgroundtopo.png);">
     <!-- Texto principal do cabeçalho -->
     <div class="container">
         <div class="row">
@@ -39,12 +39,21 @@
             implementando a cultura da inovação no Grupo ICC, um <br>dos maiores complexos de saúde do Ceará.
           </p>
           <div class="linha-quem-somos">
-            <img src="SRC/assets/img/linhaquemsomos.svg" alt="">
+          <svg width="664" height="14" viewBox="0 0 664 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="-10" y="5.00012" width="667" height="4" fill="url(#paint0_linear_6696_286)"/>
+            <path d="M650 0.00012207H664V14.0001H650V0.00012207Z" fill="#520660"/>
+            <defs>
+            <linearGradient id="paint0_linear_6696_286" x1="-10" y1="7.00012" x2="657" y2="7.00012" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#520660" stop-opacity="0"/>
+            <stop offset="1" stop-color="#520660"/>
+            </linearGradient>
+            </defs>
+          </svg>
           </div>
         </div>
         <div class="col-lg-6 imagem">
           <div class="caixa">
-            <img src="SRC/assets/img/vector-18.png" alt="Imagem" class="img-fluid" />
+            <img src="http://localhost/wpatratis/wp-content/uploads/2024/11/imagem.png" alt="Imagem" class="img-fluid" />
             <div class="marca">
               BIOLABS
             </div>
@@ -55,11 +64,11 @@
   </section>
 
   <!-- Seção "O Que Fazemos" -->
-  <section class="que-fazemos" id="que-fazemos">
+  <section class="que-fazemos" id="que-fazemos" style="background-color: #520660;">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 imagem-que-fazemos">
-          <img src="SRC/assets/img/que-fazemos.png" alt="Imagem do time sentado" id="img" class="img-fluid" />
+          <img src="http://localhost/wpatratis/wp-content/uploads/2024/11/imagemtime.png" alt="Imagem do time sentado" id="img" class="img-fluid" />
         </div>
         <div class="col-lg-6">
           <div class="content-texto">
@@ -114,7 +123,7 @@
           </div>
         </div>
         <div class="col-lg-12">
-          <img src="SRC/assets/img/linhanumeros.png" alt="Linha de separação" class="img-fluid" />
+          <img src="http://localhost/wpatratis/wp-content/uploads/2024/11/linhanumeros.png" alt="Linha de separação" class="img-fluid" />
         </div>
 
         <div class="col-lg-12 estatistica d-flex justify-content-around flex-wrap">
@@ -147,7 +156,9 @@
       <div class="row">
         <div class="col-12 titulo">
           <div class="titulo-pequeno" data-aos="fade-left" data-aos-duration="2000">
-            <img src="SRC/assets/img/rectangle-401.png" alt="Ícone" />
+          <svg width="25" height="2" viewBox="0 0 25 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="25" height="2" rx="1" fill="#E413C6"/>
+          </svg>
             <h3><span>NOSSO TIME</span></h3>
           </div>
           <div class="texto-seta">

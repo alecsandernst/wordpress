@@ -1,4 +1,4 @@
-<footer>
+\<footer>
     <div class="container">
       <div class="row">
         <!-- Coluna 1: Logo e Redes Sociais -->
